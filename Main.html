@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>“新冠肺在线”</title>
+
+		<!--allHave---css-->
+		<link rel="stylesheet" type="text/css" href="css/allHaveTop.css">
+
+		<!--center:-->
+		<link rel="stylesheet" href="css/center.css" />
+		<link rel="stylesheet" href="css/article.css" />
+		<link rel="stylesheet" href="css/section.css" />
+
+		<link rel="stylesheet" href="css/gdrs.css" />
+		<link rel="stylesheet" href="css/zxqk.css" />
+		<link rel="stylesheet" href="css/left.css" />
+		<link rel="stylesheet" href="css/right.css" />
+
+		<link rel="stylesheet" href="css/column.css" />
+		<link rel="stylesheet" href="css/blackToTop.css" />
+
+		<script type="text/javascript" src="js/blackToTop.js"></script>
+		<script type="text/javascript" src="js/mouseHaveBoll.js" ></script>
+		<script src="js/imgMove.js"></script>
+		<script>
+			function firm() { //利用对话框返回的值 （true 或者 false）
+				if(confirm("你要给他100块咩")) { //如果是true ，那么就把页面转向thcjp.cnblogs.com
+					location.href = "MyIndex.html";
+				}
+			}
+
+			function prom() {
+
+				var name = prompt("要登录嗷~ 输入用户名：", ""); //将输入的内容赋给变量 name ，
+				//这里需要注意的是，prompt有两个参数，前面是提示的话，后面是当对话框出来后，在对话框里的默认值
+				if(name) //如果返回的有内容
+				{
+					alert("没有这个：" + name + "用户名 惨兮兮嗷");
+				}
+			}
+		</script>
+
+		<!--bottom-->
+		<style>
+
+		</style>
+
+		<!--赞！赏！-->
+		<style>
+			.zs {
+				position: fixed;
+				top: 216px;
+				left: calc((100vw - 1000px)/2 - 78px);
+				user-select: none;
+			}
+			
+			.shang {
+				justify-content: center;
+				width: 48px;
+				height: 48px;
+				font-size: 18px;
+				border-radius: 50%;
+				box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
+				background-color: #fff;
+			}
+			
+			.zan,
+			.shang {
+				display: flex;
+				align-items: center;
+			}
+			
+			.zan {
+				flex-direction: column;
+				margin-bottom: 16px;
+				cursor: pointer;
+				color: #969696;
+			}
+			
+			.zzss {
+				margin-top: 4px;
+				font-size: 14px;
+				text-align: center;
+				color: #969696;
+				overflow: hidden;
+				height: 19px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<!--回到顶部-->
+		<div id="hqestop"></div>
+		<div class="backtop">
+			<!-- onfocus="this.blur();去掉点击a标签时的虚线 -->
+			<a href="#hqestop" target="_self" onfocus="this.blur();">
+				<button class="btnbacktop" type="回到顶部" onfocus="this.blur();">
+  <i class="fa fa-caret-up"></i>
+</button>
+			</a>
+		</div>
+
+
+		
+
+		<!--赞！！--------------------------------------赏！！-->
+		<div class="zs">
+			<div class="zan">
+				<div class="shang" tabindex="-1">
+					<img width="50px" src="img/sytp/zan-1.png" onclick="prom()" />
+				</div>
+
+				<div class="zzss">
+					<span class="zzzzan">999<!-- -->赞</span>
+				</div>
+			</div>
+
+			<div class="zan">
+				<div class="shang" tabindex="-1">
+					<img width="50px" src="img/sytp/ping-1.png" onclick="firm()" />
+				</div>
+				<div class="zzss" tabindex="-1">赞赏</div>
+			</div>
+		</div>
+
+		<div class="allHave">
+			<header>
+				<img src="img/sytp/bcakgr.jpg">
+			</header>
+
+			<div id="top">
+				<div id="title">
+					<ul>
+						<h2>
+							<a href="Main.html">首页</a>
+						</h2>
+						<li>
+							<a href="首页链接/gdrs.html">感动人事</a>
+						</li>
+						<li>
+							<a href="首页链接/xydt.html">最新情况</a>
+						</li>
+						<li>
+							<a href="首页链接/gjfx.html">国际反响</a>
+						</li>
+
+						<li>
+							<a href="首页链接/xydt.html">校园动态</a>
+						</li>
+						<li>
+							<a href="首页链接/zyxy.html">中医西医</a>
+						</li>
+						<li>
+							<a href="MyIndex.html" ><span style="color: red;">我的主页</span></a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-------------------------------------------------------------->
+
+		
+
+		<div id="center">
+			<article>
+				<section>
+
+					<!-- 感动人事 -->
+					<div id="gdrs" class="container">
+						<div id='imgMove'>
+							<div id='imgMove2'>
+								<ul>
+									<li>
+										<a href="首页链接/gdrs/1.html" target="_blank">
+											<img src="img/gdrs/1.png" alt="感动人事1" style="height:400px">
+										</a>
+									</li>
+									<li>
+										<a href="首页链接/gdrs/2.html" target="_blank">
+											<img src="img/gdrs/2.png" alt="感动人事2" style="height:400px">
+										</a>
+									</li>
+									<li>
+										<a href="首页链接/gdrs/3.html" target="_blank">
+											<img src="img/gdrs/3.png" alt="感动人事3" style="height:400px">
+										</a>
+									</li>
+									<li>
+										<a href="首页链接/gdrs/4.html" target="_blank">
+											<img src="img/gdrs/4.png" alt="感动人事4" style="height:400px">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- 最新情况 -->
+					<div id="zxqk">
+						<div class="column">
+							<span><img src="img/sytp/zxqk.png" style="margin-right: 5px">最新情况</span>
+							<a href="首页链接/xydt.html" target="_blank">更多&gt;&gt;</a>
+							
+						</div>
+						<dl>
+							
+							<dt><a href="首页链接/地图.html" target="_blank" title="疫情地图">疫情地图</a></dt>
+
+							<!--#endeditable-->
+						</dl>
+						<ul class="i_list">
+							<!--#begineditable name="工作部署新-标题列表" viewid="248099"-->
+
+							<li>
+								<a href="https://voice.baidu.com/act/newpneumonia/newpneumonia" target="_blank" title="最新疫情">最新疫情</a><span>2020/06/05</span>
+							</li>
+							<p><br /></p>
+							<li>
+								<a href="首页链接/zxqk/1.html" target="_blank" title="黑死病与新冠肺炎">黑死病与新冠肺炎----------</a><span>2020/05/01</span>
+							</li>
+
+							<li>
+								<a href="首页链接/zxqk/2.html" target="_blank" title="">美国确诊人数超过30万</a><span>2020/04/15</span></li>
+							<li>
+								<a href="首页链接/zxqk/3.html" target="_blank" title="意大利为高中毕业考试准备520万个口罩">意大利为高中毕业考试准备<br />&nbsp;&nbsp;&nbsp;&nbsp;520万个口罩</a><span>2020/04/02</span>
+							</li>
+							<li>
+								<a href="首页链接/zxqk/4.html" target="_blank" title="高考确认延期#考试时间为7月7日至8日">高考确认延期#考试时间为7月7日<br />&nbsp;&nbsp;&nbsp;&nbsp;至8日！</a><span>2020/04/03</span>
+							</li>
+							<li>
+								<li>
+									<a href="首页链接/zxqk/5.html" target="_blank" title="未来你好#送给毕业的你">未来你好#送给毕业的你</a><span>2020/05/30</span>
+								</li>
+
+								<!--#endeditable-->
+						</ul>
+					</div>
+				</section>
+
+
+
+				<!--left-->
+				<section>
+					<!--shfy-->
+					<!-- 诗歌 -->
+					<div id="left">
+						<div class="column" style="margin-bottom: 20px;">
+								<span><img src="img/sytp/shfy.png" style="margin-right:5px">社会反映</span>
+								<a href="首页链接/xydt.html" target="_blank">更多&gt;&gt;</a>
+							</div>
+						
+						<div class="Tpimg" style="width: auto;">
+							<!--<p><br /></p>-->
+							<h1 ><big>🌸患难见真情，携手同抗疫。🌸</big></h1>
+							<p>
+								💐大爱无疆，共担风雨。💐<br /> 🌼命运与共，休戚相关。🌼
+								<br /> 🌷同心抗疫，共渡难关。🌷
+								<br /> 🍁携手向前，共克时艰。🍁
+								<br /> 山河异域，风月同天。
+								<br /> 一方有难，八方支援。
+								<br /> 疫情不仅让我们感受到了国家和同胞的温暖，也让我们感受到了国际大家庭的亲情。
+								<br /> “阿丹子孙皆兄弟，兄弟犹如手足亲。造物之初本一体，一肢罹病染全身。”伊朗外长扎里夫在个人网络社交平台上发文支持和慰问中国，他特意引用了伊朗古语来表达友好心情。
+								
+								<br /> 友邻今天再次用上了这几个字，既体现着两国绵延不绝的文化交流，也唤醒了历经千年的难忘记忆。
+								<br /> 休戚与共，大国大爱。
+								<br /><br /><br />
+							</p>
+							<!--<img src="img/gdrs/1591427041_244291.png">-->
+						</div>
+
+					</div>
+
+				</section>
+
+
+
+				<!-- right -->
+				<section>
+
+					<!--国际反响-->
+					<div id="right">
+						<div id="gjfx">
+							<div class="column" >
+								<span><img src="img/sytp/gjfx.png" style="margin-right:5px">国际反响</span>
+								<a href="首页链接/gjfx.html" target="_blank">更多&gt;&gt;</a>
+
+							</div>
+							<p><br /></p>
+
+							<a href="首页链接/zxqk/2.html">
+								<img src="img/sytp/6-1.png" width="350px" />
+							</a>
+							<p><br /></p>
+							<a href="https://mp.weixin.qq.com/s/km0DizHVQ4L5i0UBYghCmQ">
+								<img src="img/sytp/3-2.png" width="350px" />
+							</a>
+							<p><br /></p>
+							<a href="首页链接/zxqk/4.html">
+								<img src="img/sytp/4-1.png" width="350px" />
+							</a>
+						</div>
+
+					</div>
+
+					<!--中医西医-->
+					<div id="right">
+						<div id="zyxy">
+							<!--#begin name="right-xyzy"-->
+							<div class="column"><span><img src="img/sytp/zyxy.png" style="margin-right:5px">中医西医</span>
+								<a href="首页链接/zyxy.html" target="_blank">更多&gt;&gt;</a>
+							</div>
+							<ul class="i_list">
+								<li>
+									<a href="首页链接/zyxy/1.html" target="_blank">中西医结合、中西药并用</a>
+									<span>2020/06/05</span></li>
+								<li style="margin-bottom: 20px;">
+									<a href="首页链接/zyxy/2.html" target="_blank">中医战疫疗效突出</a>
+									<span>2020/06/04</span></li>
+
+							</ul>
+
+							<!--#endeditable-->
+						</div>
+
+					</div>
+
+
+
+				</section>
+
+			</article>
+
+		</div>
+
+		<!-------------------------------------------------------------->
+
+		<div class="allHave">
+			<div id="bottom">
+
+				<div class="foot">
+					<!--#begineditable name="版权" viewid="248107"-->
+					<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+					<p style="text-align: center">Copyright © 刘心怡的坑爹网站</p>
+					<!--#endeditable-->
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
